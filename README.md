@@ -68,3 +68,13 @@
 - `GET /courses/{course}/low-grades` - студенты курса с оценкой ниже 30
 
 ## Структура проекта
+
+project/
+├── main.py # FastAPI приложение
+├── models.py # Модели SQLAlchemy
+├── schemas.py # Pydantic схемы
+├── database.py # Настройка БД и сессии
+├── crud.py # Класс StudentManager с CRUD операциями
+├── requirements.txt # Зависимости
+└── students.csv # Исходные данные
+
