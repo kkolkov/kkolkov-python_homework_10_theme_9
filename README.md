@@ -78,3 +78,10 @@ project/
 ├── requirements.txt # Зависимости
 └── students.csv # Исходные данные
 
+
+## Установка
+pip install fastapi uvicorn sqlalchemy pandas
+pip install "pydantic[email]"
+uvicorn main:app --reload
+
+http://127.0.0.1:8000/docs
